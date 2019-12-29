@@ -1,0 +1,129 @@
+:root {
+  --white: #ffffff;
+  --dark-blue: #182C67;
+  --med-blue: #8ED8F8;
+  --light-blue: #DCF1FA;
+}
+
+body{
+  background-color: var(--white);
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-blue);
+}
+
+.hero{
+  width: 100vw;
+  background-color: var(--light-blue);
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.logo img{
+ width: 35%;
+}
+
+.socials a{
+  margin-right: 32px;
+  border: none;
+}
+
+.socials a:last-child{
+  margin-right: 0;
+}
+
+.socials a:after{
+  content: none;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.showcase{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.box{
+ 	width: 30%;
+ 	background-color: var(--med-blue);
+}
+
+.box img{
+  width: 100%;
+}
+
+.card-text{
+  padding: 24px;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a{
+  color: var(--dark-blue);
+  text-decoration: none;
+  border-bottom: solid 1px var(--dark-blue);
+}
+
+a:hover{
+  transition: all .25s ease-out;
+  padding-bottom: 4px;
+}
+
+a:after{
+  content: "→";
+}
+
+.cta{
+  font-style: italic;
+  text-align: center;
+}
+
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  header{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .logo img{
+    width: 30%;
+  }
+
+  .showcase{
+    flex-direction: column;
+  }
+
+  .box{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
