@@ -143,6 +143,17 @@ footer{
   background-color: var(--light-blue);
 }
 
+/*404*/
+
+.four-o-four{
+  height: 100vh;
+  background-color: var(--light-blue);
+}
+
+.four-o-four .contact-text{
+  background-color: var(--white);
+}
+
 @media only screen and (max-width: 767px) {
   header{
     flex-direction: column-reverse;
@@ -176,6 +187,12 @@ footer{
   .contact-text img{
     width: 16%;
     top: -60px;
+  }
+
+  /*404*/
+  .four-o-four .contact{
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
 
