@@ -13,8 +13,46 @@ body{
   color: var(--dark-blue);
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+a{
+  color: var(--dark-blue);
+  text-decoration: none;
+  border-bottom: solid 1px var(--dark-blue);
+}
+
+a:hover{
+  transition: all .25s ease-out;
+  padding-bottom: 4px;
+}
+
+a:after{
+  content: "→";
+}
+
 .hero{
-  width: 100vw;
   background-color: var(--light-blue);
 }
 
@@ -24,19 +62,25 @@ body{
   padding: 24px;
 }
 
-header{
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 48px;
-}
-
 .logo img{
  width: 35%;
 }
 
+.socials{
+  display: flex;
+  align-items: center;
+}
+
 .socials a{
   margin-right: 32px;
+  padding: 8px;
   border: none;
+  border-radius: 8px;
+}
+
+.socials a:hover{
+  transition: all .25s ease-out;
+  background-color: var(--med-blue);
 }
 
 .socials a:last-child{
@@ -50,12 +94,6 @@ header{
 .title{
   text-align: center;
   margin-bottom: 64px;
-}
-
-h1{
-  font-size: 48px;
-  font-weight: 700;
-  padding-bottom: 24px;
 }
 
 .showcase{
@@ -77,53 +115,72 @@ h1{
   padding: 24px;
 }
 
-h3{
-  font-size: 24px;
-  font-weight: 700;
-}
-
-a{
-  color: var(--dark-blue);
-  text-decoration: none;
-  border-bottom: solid 1px var(--dark-blue);
-}
-
-a:hover{
-  transition: all .25s ease-out;
-  padding-bottom: 4px;
-}
-
-a:after{
-  content: "→";
-}
-
 .cta{
   font-style: italic;
   text-align: center;
 }
 
-h2{
-  font-size: 48px;
-  font-weight: 700;
-  padding-bottom: 24px;
+.contact{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.contact-text{
+  padding: 120px;
+  position: relative;
+  background-color: var(--light-blue);
+  border-radius: 8px;
+}
+
+.contact-text img{
+  position: absolute;
+  top: -80px;
+  left: -16px;
+}
+
+footer{
+  height: 32px;
+  background-color: var(--light-blue);
 }
 
 @media only screen and (max-width: 767px) {
   header{
     flex-direction: column-reverse;
     align-items: center;
+    margin: 0;
+  }
+
+  .logo{
+    text-align: center;
   }
 
   .logo img{
     width: 30%;
+    margin-top: 24px;
   }
 
   .showcase{
     flex-direction: column;
+    margin-bottom: 32px;
   }
 
   .box{
     width: 100%;
     margin-bottom: 24px;
+  }
+
+  .contact-text{
+    padding: 32px;
+  }
+
+  .contact-text img{
+    width: 16%;
+    top: -60px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .contact-text img{
+    display: none;
   }
 }
