@@ -62,8 +62,22 @@ a:after{
   padding: 24px;
 }
 
-.logo img{
- width: 35%;
+.logo{
+  width: 160px;
+  height: 160px;
+  background-image: url("../assets/katreyyy-site-head-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}
+
+.logo:hover{
+  background-image: url("../assets/katreyyy-site-head-2.png");
+  padding: 0;
+}
+
+.logo:after{
+  content: "";
 }
 
 .socials{
@@ -105,6 +119,7 @@ a:after{
 .box{
  	width: 30%;
  	background-color: var(--med-blue);
+  border-radius: 8px;
 }
 
 .box img{
@@ -139,8 +154,11 @@ a:after{
 }
 
 footer{
-  height: 32px;
   background-color: var(--light-blue);
+}
+
+footer .container{
+  padding: 8px 0;
 }
 
 /*404*/
