@@ -37,19 +37,21 @@ h3{
   padding-bottom: 24px;
 }
 
-a{
+.button{
   color: var(--dark-blue);
   text-decoration: none;
   border-bottom: solid 1px var(--dark-blue);
 }
 
-a:hover{
+.button:hover{
   transition: all .25s ease-out;
   padding-bottom: 4px;
 }
 
-a:after{
-  content: "→";
+.button:after{
+  margin-left: 8px;
+  content: url("../assets/arrow.svg");
+  border: none;
 }
 
 .hero{
@@ -63,8 +65,8 @@ a:after{
 }
 
 .logo{
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   background-image: url("../assets/katreyyy-site-head-1.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -116,6 +118,16 @@ a:after{
   margin-bottom: 64px;
 }
 
+.box-link{
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+.box-link:hover{
+  transition: all .25s ease-out;
+  padding-bottom: 4px;
+}
+
 .box{
  	width: 30%;
  	background-color: var(--med-blue);
@@ -157,10 +169,6 @@ footer{
   background-color: var(--light-blue);
 }
 
-footer .container{
-  padding: 8px 0;
-}
-
 /*404*/
 
 .four-o-four{
@@ -181,11 +189,6 @@ footer .container{
 
   .logo{
     text-align: center;
-  }
-
-  .logo img{
-    width: 30%;
-    margin-top: 24px;
   }
 
   .showcase{
