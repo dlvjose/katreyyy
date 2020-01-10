@@ -123,11 +123,6 @@ h3{
   text-decoration: none;
 }
 
-.box-link:hover{
-  transition: all .25s ease-out;
-  padding-bottom: 4px;
-}
-
 .box{
  	width: 30%;
  	background-color: var(--med-blue);
