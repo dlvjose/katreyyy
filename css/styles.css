@@ -39,19 +39,19 @@ h3{
 
 .button{
   color: var(--dark-blue);
-  text-decoration: none;
-  border-bottom: solid 1px var(--dark-blue);
-}
-
-.button:hover{
-  transition: all .25s ease-out;
-  padding-bottom: 4px;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 .button:after{
   margin-left: 8px;
   content: url("../assets/arrow.svg");
   border: none;
+}
+
+.button:hover:after{
+  transition: all .25s ease-out;
+  margin-left: 16px;
 }
 
 .hero{
@@ -138,7 +138,6 @@ h3{
 }
 
 .cta{
-  font-style: italic;
   text-align: center;
 }
 
