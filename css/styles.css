@@ -1,3 +1,62 @@
+/* Css Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+input, textarea, select {
+  font: inherit;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Css Reset */
+
 :root {
   --white: #ffffff;
   --dark-blue: #182C67;
@@ -14,31 +73,35 @@ body{
 }
 
 header{
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 48px;
 }
 
 h1{
+  margin-bottom: 24px;
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 24px;
 }
 
 h2{
+  margin-bottom: 24px;
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 24px;
 }
 
 h3{
+  margin-bottom: 24px;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 24px;
 }
 
 p{
   margin-bottom: 16px;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .button{
@@ -51,10 +114,10 @@ p{
   margin-left: 8px;
   content: url("../assets/arrow.svg");
   border: none;
+  transition: all .25s ease-out;
 }
 
 .button:hover:after{
-  transition: all .25s ease-out;
   margin-left: 16px;
 }
 
@@ -79,7 +142,6 @@ p{
 
 .logo:hover{
   background-image: url("../assets/katreyyy-site-head-2.png");
-  padding: 0;
 }
 
 .logo:after{
@@ -116,8 +178,8 @@ p{
 }
 
 .title{
+  margin: 32px 0;
   text-align: center;
-  margin-bottom: 64px;
 }
 
 .showcase{
@@ -150,8 +212,7 @@ p{
 }
 
 .contact{
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 100px 0;
 }
 
 .contact-text{
@@ -175,11 +236,12 @@ footer{
 
 .project-hero{
   display: flex;
-  height: 25vh;
+  height: 20vh;
 }
 
 .project-title{
   width: 50%;
+  margin-right: 24px;
   text-align: left;
 }
 
@@ -188,8 +250,29 @@ footer{
   text-align: right;
 }
 
-.fifty{
-  width: 50%;
+.introduction{
+  width: 45%;
+  margin-bottom: 96px;
+}
+
+.content-img{
+  margin: 32px 0;
+}
+
+.img-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.row-item{
+ 	width: 30%;
+}
+
+.more-projects-cta{
+  padding-top: 16px;
+  text-align: right;
+  border-top: 2px solid var(--light-blue);
 }
 
 /*404*/
@@ -204,22 +287,12 @@ footer{
 }
 
 @media only screen and (max-width: 767px) {
-  header{
-    flex-direction: column-reverse;
-    align-items: center;
-    margin: 0;
-  }
-
-  .logo{
-    text-align: center;
-  }
-
-  .showcase{
+  .showcase, .img-row{
     flex-direction: column;
     margin-bottom: 32px;
   }
 
-  .box{
+  .box, .row-item{
     width: 100%;
     margin-bottom: 24px;
   }
@@ -233,14 +306,45 @@ footer{
     top: -60px;
   }
 
+  /*Project*/
+  .project-hero{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .project-title{
+    width: 100%;
+    margin: 32px 0 32px 0;
+    text-align: center;
+  }
+
+  .project-img{
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .introduction{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
   /*404*/
   .four-o-four .contact{
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin: 24px 0;
   }
 }
 
 @media only screen and (max-width: 580px) {
+  .logo{
+    width: 60px;
+    height: 60px;
+  }
+
+  .socials a{
+    margin-right: 8px;
+  }
+
   .contact-text img{
     display: none;
   }
