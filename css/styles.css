@@ -98,6 +98,15 @@ p{
   margin-bottom: 16px;
 }
 
+ul{
+  margin-bottom: 24px;
+  list-style: circle;
+}
+
+li{
+  margin-left: 16px;
+}
+
 .flex-row{
   display: flex;
   justify-content: space-between;
@@ -234,42 +243,36 @@ footer{
 
 /*Project*/
 
-.project-hero{
-  display: flex;
-  height: 20vh;
-}
-
 .project-title{
-  width: 50%;
-  margin-right: 24px;
+  width: 65%;
   text-align: left;
 }
 
-.project-img{
+.two-col{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
   width: 50%;
-  text-align: right;
+  margin-right: 12px;
 }
 
-.introduction{
-  width: 45%;
-  margin-bottom: 96px;
-}
-
-.content-img{
-  margin: 32px 0;
+.right{
+  width: 50%;
+  margin-left: 12px;
 }
 
 .img-row{
   display: flex;
   justify-content: space-between;
-  margin: 32px 0;
 }
 
 .row-item{
  	width: 30%;
 }
 
-.more-projects-cta{
+.project-footer{
   padding-top: 16px;
   text-align: right;
   border-top: 2px solid var(--light-blue);
@@ -307,26 +310,19 @@ footer{
   }
 
   /*Project*/
-  .project-hero{
-    flex-direction: column;
-    height: 100%;
-  }
 
   .project-title{
     width: 100%;
-    margin: 32px 0 32px 0;
     text-align: center;
   }
 
-  .project-img{
-    width: 100%;
-    margin-bottom: 8px;
-    text-align: center;
+  .two-col{
+    flex-direction: column;
   }
 
-  .introduction{
+  .left, .right{
     width: 100%;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   /*404*/
