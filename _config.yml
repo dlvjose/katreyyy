@@ -1,0 +1,21 @@
+exclude: ['README.md']
+
+collections:
+  projects:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+url: "https://katreyyy.com"
+plugins:
+  - jekyll-sitemap 
