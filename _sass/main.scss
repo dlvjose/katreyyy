@@ -59,6 +59,18 @@ li{
   margin-left: 16px;
 }
 
+
+a{
+  color: var(--dark-blue);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all .25s ease-out;
+  
+  &:hover{
+    color: var(--orange);
+  }
+}
+
 .flex-row{
   display: flex;
   justify-content: space-between;
@@ -70,32 +82,25 @@ li{
   text-decoration: underline;
   font-style: italic;
   transition: all 0.25s ease-out;
+
+  &:hover {
+    color: var(--orange);
+  }
 }
 
 .arrow{
   margin-left: 4px;
   fill: var(--dark-blue);
   transition: all 0.25s ease-out;
+
+  &:hover{
+    color: var(--orange);
+  }
 }
 
 .button:hover .arrow{
   margin-left: 16px;
   fill: var(--orange);
-
-  &:hover{
-    color: var(--orange);
-  }
-}
-
-a{
-  color: var(--dark-blue);
-  text-decoration: underline;
-  cursor: pointer;
-  transition: all .25s ease-out;
-
-  &:hover{
-    color: var(--orange);
-  }
 }
 
 .text-box {

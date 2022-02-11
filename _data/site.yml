@@ -1,5 +1,5 @@
 homepage:
-  title: Kathleen Reyes
+  headline: Kathleen Reyes
   byline: Designer + Illustrator + Cat Fan 😻
 
 about:
@@ -14,6 +14,7 @@ contact:
 four-o-four:
   headline: Ooops, where ya going? (404)
   link-text: Take me back home!
+  link-url: /
 
 socials:
   instagram: https://www.instagram.com/katreyyy/

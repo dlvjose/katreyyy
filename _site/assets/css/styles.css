@@ -42,19 +42,21 @@ ul { margin-bottom: 24px; list-style: circle; }
 
 li { margin-left: 16px; }
 
+a { color: var(--dark-blue); text-decoration: underline; cursor: pointer; transition: all .25s ease-out; }
+
+a:hover { color: var(--orange); }
+
 .flex-row { display: flex; justify-content: space-between; align-items: center; }
 
 .button { color: var(--dark-blue); text-decoration: underline; font-style: italic; transition: all 0.25s ease-out; }
 
+.button:hover { color: var(--orange); }
+
 .arrow { margin-left: 4px; fill: var(--dark-blue); transition: all 0.25s ease-out; }
 
+.arrow:hover { color: var(--orange); }
+
 .button:hover .arrow { margin-left: 16px; fill: var(--orange); }
-
-.button:hover .arrow:hover { color: var(--orange); }
-
-a { color: var(--dark-blue); text-decoration: underline; cursor: pointer; transition: all .25s ease-out; }
-
-a:hover { color: var(--orange); }
 
 .text-box { margin: 0 auto; max-width: 700px; }
 

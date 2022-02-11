@@ -1,13 +1,11 @@
 ---
-title: Better World Animation - Kathleen Reyes
+title: Better World Animation
+category: Illustration and Character Design
 author: Kathleen Reyes
 name: Better World Animation
 meta: Better World animation - illustration and character design for animation studio, Park Ave.
 thumbnail: "/assets/images/betterworld-illo-card.png"
 ---
-
-# Better World
-Illustration and Character Design
 
 ![Illustration of young girl waving and standing in a forest.](/assets/images/betterworld-illo-main.png)
 
