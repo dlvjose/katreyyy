@@ -7,8 +7,8 @@ meta: Designer + Illustrator + Cat Fan 😻
 <main>
     <div class="container">
         <div class="title">
-            <h1>Kathleen Reyes</h1>
-            <p>Designer + Illustrator + Cat Fan 😻</p>
+            <h1>{{site.data.site.homepage.title}}</h1>
+            <p>{{site.data.site.homepage.byline}}</p>
         </div>
         <div class="showcase">
             {% for project in site.projects limit: 3 %}
@@ -27,7 +27,7 @@ meta: Designer + Illustrator + Cat Fan 😻
             {% endfor %}
         </div>
         <div class="cta">
-            <a class="button" href="https://www.instagram.com/katreyyy/" target="_blank">
+            <a class="button" href="{{site.data.site.socials.instagram}}" target="_blank">
                 Oooh, look at this
                 <svg class="arrow" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path

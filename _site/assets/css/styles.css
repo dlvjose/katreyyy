@@ -102,12 +102,14 @@ a:hover { color: var(--orange); }
 .project-footer { padding-top: 16px; text-align: right; border-top: 2px solid var(--light-blue); }
 
 /*404*/
-.four-o-four { height: 100vh; padding-top: 64px; background-color: var(--light-blue); }
+.four-o-four { height: 100vh; padding-top: 64px; }
 
-.four-o-four .contact-text { background-color: var(--white); }
+.four-o-four .four-o-four-text { padding: 120px; position: relative; background-color: var(--white); border-radius: 8px; }
 
-@media only screen and (max-width: 767px) { .showcase, .img-row { flex-direction: column; margin-bottom: 32px; } .box, .row-item { width: 100%; margin-bottom: 24px; } .contact-text { padding: 32px; } .contact-text .contact-text img { width: 16%; top: -60px; } }
+.four-o-four .four-o-four-text img { position: absolute; top: -94px; left: -16px; }
 
-@media only screen and (max-width: 580px) { h1 { font-size: 32px; } h2 { font-size: 24px; } .logo { width: 60px; height: 60px; } .socials a { margin-right: 8px; } .contact { margin: 0; } .contact .contact-text img { display: none; } }
+@media only screen and (max-width: 767px) { .showcase, .img-row { flex-direction: column; margin-bottom: 32px; } .box, .row-item { width: 100%; margin-bottom: 24px; } .contact-text, .four-o-four-text { padding: 32px; } .contact-text .contact-text img, .contact-text .four-o-four-text img, .four-o-four-text .contact-text img, .four-o-four-text .four-o-four-text img { width: 16%; top: -60px; } }
+
+@media only screen and (max-width: 580px) { h1 { font-size: 32px; } h2 { font-size: 24px; } .logo { width: 60px; height: 60px; } .socials a { margin-right: 8px; } .contact { margin: 0; } .contact .contact-text img, .contact .four-o-four-text { display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

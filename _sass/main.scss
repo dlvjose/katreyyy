@@ -219,10 +219,18 @@ a{
 .four-o-four{
   height: 100vh;
   padding-top: 64px;
-  background-color: var(--light-blue);
 
-  .contact-text{
+  .four-o-four-text{
+    padding: 120px;
+    position: relative;
     background-color: var(--white);
+    border-radius: 8px;
+
+    img{
+      position: absolute;
+      top: -94px;
+      left: -16px;
+    }
   }
 }
 
@@ -237,10 +245,10 @@ a{
     margin-bottom: 24px;
   }
 
-  .contact-text{
+  .contact-text, .four-o-four-text{
     padding: 32px;
 
-    .contact-text img{
+    .contact-text img, .four-o-four-text img{
       width: 16%;
       top: -60px;
     }
@@ -268,7 +276,7 @@ a{
   .contact{
     margin: 0;
 
-      .contact-text img{
+      .contact-text img, .four-o-four-text{
         display: none;
       }
   }

@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: dlvjose/katreyyy 
+
+publish_mode: editorial_workflow
+  
+media_folder: "assets/images/uploads"
+
+collections:
+  - name: "site-settings"
+    label: "Site Settings"
+    files:
+      - label: "Site Settings"
+        name: "site"
+        file: "_data/site.yml"
+        fields: 
+          - label: "Homepage Title"
+            name: "title"
+            widget: "string"
