@@ -70,12 +70,6 @@ a{
   }
 }
 
-.flex-row{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .button{
   color: var(--dark-blue);
   text-decoration: underline;
@@ -100,6 +94,12 @@ a{
 .button:hover .arrow{
   margin-left: 16px;
   fill: var(--orange);
+}
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container{
@@ -210,7 +210,7 @@ a{
 .project{
   p{
     margin: 16px auto;
-    width: 700px;
+    max-width: 700px;
   }
 
   .img-only{
@@ -256,12 +256,25 @@ a{
     margin-bottom: 24px;
   }
 
-  .contact-text, .four-o-four-text{
-    padding: 32px;
+  .contact{
+    .contact-text{
+      padding: 32px;
 
-    .contact-text img, .four-o-four-text img{
-      width: 16%;
-      top: -60px;
+      img{
+        width: 16%;
+        top: -60px;
+      }
+    }
+  }
+
+  .four-o-four{
+    .four-o-four-text{
+      padding: 32px;
+
+      img{
+        width: 16%;
+        top: -60px;
+      }
     }
   }
 }
@@ -286,9 +299,18 @@ a{
 
   .contact{
     margin: 0;
-
-      .contact-text img, .four-o-four-text{
+    .contact-text{
+      img{
         display: none;
       }
+    }
+  }
+
+  .four-o-four{
+    .four-o-four-text{
+      img{
+        display: none;
+      }
+    }
   }
 }

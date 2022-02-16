@@ -46,8 +46,6 @@ a { color: var(--dark-blue); text-decoration: underline; cursor: pointer; transi
 
 a:hover { color: var(--orange); }
 
-.flex-row { display: flex; justify-content: space-between; align-items: center; }
-
 .button { color: var(--dark-blue); text-decoration: underline; font-style: italic; transition: all 0.25s ease-out; }
 
 .button:hover { color: var(--orange); }
@@ -57,6 +55,8 @@ a:hover { color: var(--orange); }
 .arrow:hover { color: var(--orange); }
 
 .button:hover .arrow { margin-left: 16px; fill: var(--orange); }
+
+.flex-row { display: flex; justify-content: space-between; align-items: center; }
 
 .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
 
@@ -99,7 +99,7 @@ a:hover { color: var(--orange); }
 .contact .contact-text img { position: absolute; top: -94px; left: -16px; }
 
 /*Project*/
-.project p { margin: 16px auto; width: 700px; }
+.project p { margin: 16px auto; max-width: 700px; }
 
 .project .img-only { width: 100%; text-align: center; }
 
@@ -112,8 +112,8 @@ a:hover { color: var(--orange); }
 
 .four-o-four .four-o-four-text img { position: absolute; top: -94px; left: -16px; }
 
-@media only screen and (max-width: 767px) { .showcase, .img-row { flex-direction: column; margin-bottom: 32px; } .box, .row-item { width: 100%; margin-bottom: 24px; } .contact-text, .four-o-four-text { padding: 32px; } .contact-text .contact-text img, .contact-text .four-o-four-text img, .four-o-four-text .contact-text img, .four-o-four-text .four-o-four-text img { width: 16%; top: -60px; } }
+@media only screen and (max-width: 767px) { .showcase, .img-row { flex-direction: column; margin-bottom: 32px; } .box, .row-item { width: 100%; margin-bottom: 24px; } .contact .contact-text { padding: 32px; } .contact .contact-text img { width: 16%; top: -60px; } .four-o-four .four-o-four-text { padding: 32px; } .four-o-four .four-o-four-text img { width: 16%; top: -60px; } }
 
-@media only screen and (max-width: 580px) { h1 { font-size: 32px; } h2 { font-size: 24px; } .logo { width: 60px; height: 60px; } .socials a { margin-right: 8px; } .contact { margin: 0; } .contact .contact-text img, .contact .four-o-four-text { display: none; } }
+@media only screen and (max-width: 580px) { h1 { font-size: 32px; } h2 { font-size: 24px; } .logo { width: 60px; height: 60px; } .socials a { margin-right: 8px; } .contact { margin: 0; } .contact .contact-text img { display: none; } .four-o-four .four-o-four-text img { display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
