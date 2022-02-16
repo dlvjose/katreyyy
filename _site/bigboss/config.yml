@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: dlvjose/katreyyy 
-
-publish_mode: editorial_workflow
   
 media_folder: "assets/images/uploads"
 
