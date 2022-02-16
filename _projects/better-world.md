@@ -36,5 +36,5 @@ It's about a young girl that is walking in an empty space but with every step sh
 
 ![Illustration of various plants.](/assets/images/betterworld-illo-assets2.png)
 
-Role: Illustrator
-Creative Direction & Client: [Park Ave](https://www.parkave.co/)
+**Role:** Illustrator
+**Creative Direction & Client:** [Park Ave](https://www.parkave.co/)

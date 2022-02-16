@@ -19,6 +19,6 @@ This card received ["Best New Product"](https://www.instagram.com/p/BUhOWeiheAz/
 
 ![Coloful notepads. One with phrase, Wake Up. Kick Butt. Repeat. The other with phrase, Eat, Drink, Boogie, Repeat.](/assets/images/bpop-so-3.png)
 
-Role: Designer and Illustrator
-Creative Direction: Kelly Romano
-Client: BenjaminPop!
+**Role:** Designer and Illustrator
+**Creative Direction:** Kelly Romano
+**Client:** BenjaminPop!

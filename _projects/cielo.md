@@ -39,5 +39,5 @@ Bringing the outside in. From the moment a guest holds a menu, Cielo’s atmosph
 
 ![Restaurant menu and textured paper samples.](/assets/images/cielo-5.png)
 
-Role: Creative Direction & Designer
-Client: Marriott Vacations Worldwide
+**Role:** Creative Direction & Designer
+**Client:** Marriott Vacations Worldwide
