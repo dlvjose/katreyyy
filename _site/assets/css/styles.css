@@ -58,8 +58,6 @@ a:hover { color: var(--orange); }
 
 .button:hover .arrow { margin-left: 16px; fill: var(--orange); }
 
-.text-box { margin: 0 auto; max-width: 700px; }
-
 .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
 
 .logo { width: 120px; height: 120px; background-image: url("/assets/images/katreyyy-site-head-1.png"); background-repeat: no-repeat; background-size: contain; border: none; }
@@ -101,6 +99,14 @@ a:hover { color: var(--orange); }
 .contact .contact-text img { position: absolute; top: -94px; left: -16px; }
 
 /*Project*/
+.project p { margin: 0 auto; width: 700px; }
+
+.project p > img { width: 100% !important; }
+
+.text-box { margin: 0 auto; max-width: 700px; }
+
+.img-only { width: 300px; }
+
 .project-footer { padding-top: 16px; text-align: right; border-top: 2px solid var(--light-blue); }
 
 /*404*/

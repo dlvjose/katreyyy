@@ -59,7 +59,6 @@ li{
   margin-left: 16px;
 }
 
-
 a{
   color: var(--dark-blue);
   text-decoration: underline;
@@ -101,11 +100,6 @@ a{
 .button:hover .arrow{
   margin-left: 16px;
   fill: var(--orange);
-}
-
-.text-box {
-    margin: 0 auto;
-    max-width: 700px;
 }
 
 .container{
@@ -212,6 +206,25 @@ a{
 }
 
 /*Project*/
+
+.project{
+  p{
+    margin: 0 auto;
+    width: 700px;
+  }
+
+  p > img{
+    width: 100% !important;
+  }
+}
+.text-box {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.img-only{
+  width: 300px;
+}
 
 .project-footer{
   padding-top: 16px;

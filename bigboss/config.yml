@@ -79,6 +79,8 @@ collections:
     folder: "_projects"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - label: "Layout"
         name: "layout"
