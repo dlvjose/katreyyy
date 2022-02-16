@@ -2,8 +2,6 @@ backend:
   name: github
   repo: dlvjose/katreyyy 
 
-publish_mode: editorial_workflow
-  
 media_folder: "assets/images/uploads"
 
 collections:
@@ -80,8 +78,6 @@ collections:
     create: true
     slug: "{{slug}}"
     preview_path: preview/{{slug}}
-    editor:
-      preview: false
     fields:
       - label: "Layout"
         name: "layout"
@@ -92,15 +88,6 @@ collections:
         widget: "string"
       - label: "Category"
         name: "category"
-        widget: "string"
-      - label: "Role"
-        name: "role"
-        widget: "string"
-      - label: "Direction"
-        name: "direction"
-        widget: "string"
-      - label: "Client"
-        name: "client"
         widget: "string"
       - label: "Body"
         name: "body"
