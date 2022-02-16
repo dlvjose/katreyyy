@@ -36,7 +36,7 @@ h2 { margin-bottom: 24px; font-size: 48px; font-weight: 700; line-height: 1.3; }
 
 h3 { margin-bottom: 24px; font-size: 18px; font-weight: 700; line-height: 1.3; }
 
-p { margin-bottom: 16px; }
+p { margin: 16px 0; }
 
 ul { margin-bottom: 24px; list-style: circle; }
 
@@ -99,13 +99,9 @@ a:hover { color: var(--orange); }
 .contact .contact-text img { position: absolute; top: -94px; left: -16px; }
 
 /*Project*/
-.project p { margin: 0 auto; width: 700px; }
+.project p { margin: 16px auto; width: 700px; }
 
-.project p > img { width: 100% !important; }
-
-.text-box { margin: 0 auto; max-width: 700px; }
-
-.img-only { width: 300px; }
+.project .img-only { width: 100%; }
 
 .project-footer { padding-top: 16px; text-align: right; border-top: 2px solid var(--light-blue); }
 

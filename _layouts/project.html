@@ -11,7 +11,30 @@ category: {{page.category}}
 </main>
 <section class="container project">
     {{content}}
+    <div>
+        <span>Role: {{page.role}}</span><br>
+        <span>Creative Direction: {{page.direction}}</span><br>
+        <span>Client: {{page.client}}</span>
+    </div>
 </section>
 
 {% include project-footer.html %}
 {% include contact.html %}
+
+<script>
+    document.querySelectorAll('p').forEach(function (p) {
+
+            // if there's no image, stop
+            if (p.querySelector('img') === null) {
+                return;
+            }
+
+            // if there's text, stop
+            if (p.innerText.trim() !== "") {
+                return;
+            }
+
+            // otherwise, mark the paragraph
+            p.classList.add('img-only');
+        });
+</script>

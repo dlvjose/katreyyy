@@ -5,6 +5,9 @@ author: Kathleen Reyes
 name: Better World Animation
 meta: Better World animation - illustration and character design for animation studio, Park Ave.
 thumbnail: "/assets/images/betterworld-illo-card.png"
+role: Illustrator
+direction: <a href="https://www.parkave.co/">Park Ave</a>
+client: <a href="https://www.parkave.co/">Park Ave</a>
 ---
 
 ![Illustration of young girl waving and standing in a forest.](/assets/images/betterworld-illo-main.png)
@@ -33,7 +36,4 @@ It's about a young girl that is walking in an empty space but with every step sh
 
 ![Illustration of three bees.](/assets/images/betterworld-illo-assets1.png)
 
-![Illustration of various plants.](/assets/images/betterworld-illo-assets2.png)
-
-Role: Illustrator  
-Creative Direction & Client: [BenjaminPop!](https://www.parkave.co/)
+![Illustration of various plants.](/assets/images/betterworld-illo-assets2.png) 

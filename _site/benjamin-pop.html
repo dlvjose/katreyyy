@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,700&display=swap" rel="stylesheet">
-    <script src="/assets/js/img-only.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
     <link rel="icon" type="image/x-icon" href="assets/images/Katreyyy-site-favicon.ico">
     <link rel="icon" type="image/png" href="assets/images/Katreyyy-site-favicon.png">
@@ -83,10 +83,11 @@
 
 <p><img src="/assets/images/bpop-so-3.png" alt="Coloful notepads. One with phrase, Wake Up. Kick Butt. Repeat. The other with phrase, Eat, Drink, Boogie, Repeat." /></p>
 
-<p>Role: Designer and Illustrator<br />
-Creative Direction: Kelly Romano<br />
-Client: <a href="https://www.benjaminpop.com/">BenjaminPop!</a></p>
-
+    <div>
+        <span>Role: Designer and Illustrator</span><br>
+        <span>Creative Direction: Kelly Romano</span><br>
+        <span>Client: Benjamin Pop!</span>
+    </div>
 </section>
 
 <section class="container">
@@ -118,6 +119,24 @@ Client: <a href="https://www.benjaminpop.com/">BenjaminPop!</a></p>
         </div>
     </div>
 </section>
+
+<script>
+    document.querySelectorAll('p').forEach(function (p) {
+
+            // if there's no image, stop
+            if (p.querySelector('img') === null) {
+                return;
+            }
+
+            // if there's text, stop
+            if (p.innerText.trim() !== "") {
+                return;
+            }
+
+            // otherwise, mark the paragraph
+            p.classList.add('img-only');
+        });
+</script>
     <footer>
     <div class="container">
         <div class="flex-row">

@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,700&display=swap" rel="stylesheet">
-    <script src="/assets/js/img-only.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
     <link rel="icon" type="image/x-icon" href="assets/images/Katreyyy-site-favicon.ico">
     <link rel="icon" type="image/png" href="assets/images/Katreyyy-site-favicon.png">
@@ -99,9 +99,11 @@
 
 <p><img src="/assets/images/betterworld-illo-assets2.png" alt="Illustration of various plants." /></p>
 
-<p>Role: Illustrator<br />
-Creative Direction &amp; Client: <a href="https://www.parkave.co/">BenjaminPop!</a></p>
-
+    <div>
+        <span>Role: Illustrator</span><br>
+        <span>Creative Direction: <a href="https://www.parkave.co/">Park Ave</a></span><br>
+        <span>Client: <a href="https://www.parkave.co/">Park Ave</a></span>
+    </div>
 </section>
 
 <section class="container">
@@ -133,6 +135,24 @@ Creative Direction &amp; Client: <a href="https://www.parkave.co/">BenjaminPop!<
         </div>
     </div>
 </section>
+
+<script>
+    document.querySelectorAll('p').forEach(function (p) {
+
+            // if there's no image, stop
+            if (p.querySelector('img') === null) {
+                return;
+            }
+
+            // if there's text, stop
+            if (p.innerText.trim() !== "") {
+                return;
+            }
+
+            // otherwise, mark the paragraph
+            p.classList.add('img-only');
+        });
+</script>
     <footer>
     <div class="container">
         <div class="flex-row">

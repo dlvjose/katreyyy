@@ -5,6 +5,9 @@ author: Kathleen Reyes
 name: Cielo Restaurant
 meta: Cielo Restaurant - brand design for Arizona restaurant in Adero resort.
 thumbnail: "/assets/images/cielo-card.png"
+role: Designer
+direction: Kathleen Reyes
+client: Marriott Vacations Worldwide
 ---
 
 ![Cielo logo on dark blue background.](/assets/images/cielo-2.png)
@@ -38,6 +41,3 @@ Terra, Sol, and Luna weave into three distinct logos. Throughout the day, the de
 Bringing the outside in. From the moment a guest holds a menu, Cielo’s atmosphere comes to life. Menus foraged from recycled materials reflect a different texture for each meal of the day, and their surfaces complement concepts of Terra, Sol and Luna. Daily culinary specials are presented on seed paper, sharing Cielo’s story of sustainability. After use, these menus are repurposed to sprout herbs for garnishes.
 
 ![Restaurant menu and textured paper samples.](/assets/images/cielo-5.png)
-
-Role: Creative Direction & Designer  
-Client: Marriott Vacations Worldwide
