@@ -101,7 +101,7 @@ a:hover { color: var(--orange); }
 /*Project*/
 .project p { margin: 16px auto; max-width: 700px; }
 
-.project .img-only { width: 100%; text-align: center; }
+.project .img-only { max-width: 100%; text-align: center; }
 
 .project-footer { padding-top: 16px; text-align: right; border-top: 2px solid var(--light-blue); }
 
