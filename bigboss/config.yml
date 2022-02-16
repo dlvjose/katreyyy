@@ -79,6 +79,7 @@ collections:
     folder: "_projects"
     create: true
     slug: "{{slug}}"
+    preview_path: preview/{{slug}}
     editor:
       preview: false
     fields:
