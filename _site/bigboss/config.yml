@@ -73,3 +73,23 @@ collections:
             - label: "Link Url"
               name: "link-url"
               widget: "string"
+
+  - name: "projects"
+    label: "Projects"
+    folder: "_projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "project"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Category"
+        name: "category"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
