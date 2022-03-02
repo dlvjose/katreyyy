@@ -1,5 +1,5 @@
 # dlvjose
-*Kath Reye's Personal Site*
+*Kath Reyes' Personal Site*
 
 This code is only to be used for reference and learning purposes. Do not steal or copy this code for any other reasons.
 
