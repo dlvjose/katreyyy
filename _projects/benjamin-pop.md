@@ -5,6 +5,7 @@ author: Kathleen Reyes
 name: Scratch-off Greeting Cards
 meta: Scratch-off greeting card designs for stationery brand BenjaminPop!
 thumbnail: "/assets/images/bpop-so-card.png"
+thumbnail-alt: Greeting card on a colorful background.
 ---
 
 ![Two scratch-off greeting cards laying on their envelopes on an orange background.](/assets/images/bpop-so-1.png)

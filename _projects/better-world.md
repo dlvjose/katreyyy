@@ -5,6 +5,7 @@ author: Kathleen Reyes
 name: Better World Animation
 meta: Better World animation - illustration and character design for animation studio, Park Ave.
 thumbnail: "/assets/images/betterworld-illo-card.png"
+thumbnail-alt: Illustration of young girl waving and standing in a forest.
 ---
 
 Animation and design studio, [Park Ave](https://www.parkave.co/), hired me to create illustration deliverables for an upcoming animated story made to inspire.

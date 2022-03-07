@@ -5,6 +5,7 @@ author: Kathleen Reyes
 name: Cielo Restaurant
 meta: Cielo Restaurant - brand design for Arizona restaurant in Adero resort.
 thumbnail: "/assets/images/cielo-card.png"
+thumbnail-alt: Cielo logo on dark blue background.
 ---
 
 ![Cielo logo on dark blue background.](/assets/images/cielo-2.png)

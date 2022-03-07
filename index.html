@@ -14,7 +14,7 @@ meta: Designer + Illustrator + Cat Fan 😻
             {% for project in site.projects limit: 3 %}
             <div class="box">
                 <a class="box-link" href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" alt="">
+                    <img src="{{ project.thumbnail }}" alt="{{ project.thumbnail-alt }}">
                     <div class="card-text">
                         <h3>{{ project.name }}</h3>
                         <p class="button">View project <svg class="arrow" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
