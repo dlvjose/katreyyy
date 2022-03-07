@@ -1,28 +1,26 @@
-:root {
-  --white: #ffffff;
-  --dark-blue: #274b8a;
-  --light-blue: #DCF1FA;
-  --orange: #f4784d;
-}
+$white: #FFFFFF;
+$dark-blue: #274B8a;
+$light-blue: #DCF1FA;
+$orange: #F4784D;
 
 body{
-  background-color: var(--white);
+  background-color: $white;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--dark-blue);
+  color: $dark-blue;
 }
 
 header{
-  background-color: var(--light-blue);
+  background-color: $light-blue;
 }
 
 footer{
-  background-color: var(--light-blue);
+  background-color: $light-blue;
 }
 
 main{
-  background-color: var(--light-blue);
+  background-color: $light-blue;
 }
 
 h1{
@@ -64,40 +62,40 @@ li{
 }
 
 a{
-  color: var(--dark-blue);
+  color: $dark-blue;
   text-decoration: underline;
   cursor: pointer;
   transition: all .25s ease-out;
   
   &:hover{
-    color: var(--orange);
+    color: $orange;
   }
 }
 
 .button{
-  color: var(--dark-blue);
+  color: $dark-blue;
   text-decoration: underline;
   font-style: italic;
   transition: all 0.25s ease-out;
 
   &:hover {
-    color: var(--orange);
+    color: $orange;
   }
 }
 
 .arrow{
   margin-left: 4px;
-  fill: var(--dark-blue);
+  fill: $dark-blue;
   transition: all 0.25s ease-out;
 
   &:hover{
-    color: var(--orange);
+    color: $orange;
   }
 }
 
 .button:hover .arrow{
   margin-left: 16px;
-  fill: var(--orange);
+  fill: $orange;
 }
 
 .flex-row{
@@ -145,7 +143,7 @@ a{
 
     &:hover{ 
       transition: all .25s ease-out;
-      background-color: var(--dark-blue);
+      background-color: $dark-blue;
     }
 
     &::after{
@@ -171,7 +169,7 @@ a{
 
 .box{
  	width: 30%;
- 	background-color: var(--white);
+ 	background-color: $white;
   border-radius: 8px;
 
   img{
@@ -183,7 +181,7 @@ a{
   }
 
   .box-link{
-    color: var(--dark-blue);
+    color: $dark-blue;
     text-decoration: none;
   }
 }
@@ -198,7 +196,7 @@ a{
   .contact-text{
     padding: 120px;
     position: relative;
-    background-color: var(--light-blue);
+    background-color: $light-blue;
     border-radius: 8px;
 
     img{
@@ -227,7 +225,7 @@ a{
 .project-footer{
   padding-top: 16px;
   text-align: right;
-  border-top: 2px solid var(--light-blue);
+  border-top: 2px solid $light-blue;
 }
 
 /*404*/
@@ -239,7 +237,7 @@ a{
   .four-o-four-text{
     padding: 120px;
     position: relative;
-    background-color: var(--white);
+    background-color: $white;
     border-radius: 8px;
 
     img{
