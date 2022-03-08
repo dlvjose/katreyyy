@@ -3,6 +3,9 @@ backend:
   repo: dlvjose/katreyyy 
 
 media_folder: "assets/images/uploads"
+publish_mode: editorial_workflow
+editor:
+     preview: false
 
 collections:
   - name: "site-settings"
