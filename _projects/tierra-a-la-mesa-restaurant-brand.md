@@ -1,6 +1,6 @@
 ---
 layout: project
-thumbnail: /assets/images/uploads/bamboo-cups-main800.png
+thumbnail: /assets/images/uploads/tierra-main800.png
 title: Tierra a la Mesa Restaurant Brand
 category: Branding
 ---
@@ -20,7 +20,27 @@ Below are three concepts created to kickstart the brand and story development fo
 
 ![](/assets/images/uploads/tierra6.png)
 
-![]()
+![](/assets/images/uploads/tierra7.png)
+
+![](/assets/images/uploads/tierra8.png)
+
+![](/assets/images/uploads/tierra9.png)
+
+![](/assets/images/uploads/tierra10.png)
+
+![](/assets/images/uploads/tierra11.png)
+
+![](/assets/images/uploads/tierra12.png)
+
+![](/assets/images/uploads/tierra13.png)
+
+![](/assets/images/uploads/tierra14.png)
+
+![](/assets/images/uploads/tierra15.png)
+
+![](/assets/images/uploads/tierra16.png)
+
+![](/assets/images/uploads/tierra17.png)
 
 **Role:** Creative Direction and Design
 **Client:** Marriott Vacations Worldwide
