@@ -1,6 +1,6 @@
 ---
 layout: project
-thumbnail: /assets/images/uploads/bamboo-cups-main800.png
+thumbnail: /assets/images/uploads/bamboo-cups-card.png
 title: Bamboo Cups
 category: Package Design
 ---
