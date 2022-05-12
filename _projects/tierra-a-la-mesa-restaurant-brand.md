@@ -1,6 +1,6 @@
 ---
 layout: project
-thumbnail: /assets/images/uploads/tierra-main800.png
+thumbnail: /assets/images/uploads/tierra-card.png
 title: Tierra a la Mesa Restaurant Brand
 category: Branding
 ---
