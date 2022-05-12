@@ -8,5 +8,11 @@ Marriott Vacation Club resorts have a yearly reusable cup for their guests to us
 
 In the past, the cup designs were insulated plastic tumblers with a resort-specific image wrapping the cup. In 2019, I took a different approach to this design, presenting a creative and eco-friendly concept. The illustrations and theme of the cup are based on regional and local area experiences. We wanted these to be a collectible and commemorative series. For an eco-friendly and cost-effective solution, these cups were produced with bamboo - giving the cup a unique look and feel.
 
+![](/assets/images/uploads/bamboo-cups-main1280.png)
+
+![](/assets/images/uploads/bamboo-cups-assets01.png)
+
+![](/assets/images/uploads/bamboo-cups-assets02.png)
+
 **Role:** Creative Direction, Design, and Illustration
-**Client:** Marriott vacation Club
+**Client:** Marriott Vacation Club
