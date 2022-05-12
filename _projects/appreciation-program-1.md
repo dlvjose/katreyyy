@@ -1,5 +1,6 @@
 ---
 layout: project
+thumbnail: /assets/images/uploads/aaw-2021-main800.png
 title: Appreciation Program
 category: Campaign Branding
 ---
@@ -14,3 +15,6 @@ The ask was to create an evergreen campaign for Marriott Vacations Worldwide’s
 ![Application examples](/assets/images/uploads/aaw-2021-asset03.png)
 
 ![Photography collage](/assets/images/uploads/aaw-2021-asset04.png)
+
+**Role:** Creative Direction and Design
+**Client:** Marriott Vacations Worldwide
