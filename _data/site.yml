@@ -1,25 +1,24 @@
 homepage:
-  headline: "Kathleen Reyes"
-  byline: "Designer + Illustrator + Cat Fan 😻"
-
+  headline: Kathleen Reyes
+  byline: Designer + Illustrator
 about:
-  headline: "Oh, heyyy!"
-  text: "I’m Kathleen or Kath (she/her), a latina designer and illustrator living in extra sunny Orlando, FL, US. A fan of simple and joyful design with a background in print production, branding, and communication. My design concentrations are brand development and marketing. My illustration work is empowering, positive, and playful."
-
+  headline: Hola!
+  text: I’m Kath Reyes (she/her), a latina designer and illustrator living in
+    sometimes-sunny-sometimes-rainy Orlando, FL, U.S. I enjoy working on simple
+    and joyful design that focuses on people, storytelling, and community. My
+    illustration work is empowering, positive, and playful.
 contact:
-  headline: "Wanna collaborate?"
-  link-text: "Let's do it!"
-  link-url: "katreyyy@gmail.com"
-
+  headline: Wanna collaborate?
+  link-text: Let's talk!
+  link-url: katreyyy@gmail.com
 four-o-four:
-  headline: "Ooops, where ya going? (404)"
-  link-text: "Take me back home!"
-  link-url: "/"
-
+  headline: Ooops, where ya going? (404)
+  link-text: Let's go back.
+  link-url: /
 socials:
-  instagram: "https://www.instagram.com/katreyyy/"
+  instagram: https://www.instagram.com/katreyyy/
   instagram-alt: Instagram icon.
-  dribbble: "https://dribbble.com/katreyyy"
+  dribbble: https://dribbble.com/katreyyy
   dribbble-alt: Dribbble icon.
-  behance: "https://www.behance.net/katreyyy"
+  behance: https://www.behance.net/katreyyy
   behance-alt: Behance icon.
