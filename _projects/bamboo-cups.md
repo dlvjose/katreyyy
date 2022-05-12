@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Bamboo Cups
-category: x
+category: Package Design
 ---
 <!--StartFragment-->
 
