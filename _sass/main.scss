@@ -163,14 +163,17 @@ a{
 
 .showcase{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 64px;
 }
 
 .box{
+  margin-bottom: 1.5rem;
  	width: 30%;
  	background-color: $white;
   border-radius: 8px;
+  overflow: hidden;
 
   img{
     width: 100%;
