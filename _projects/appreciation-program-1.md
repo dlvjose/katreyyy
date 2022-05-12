@@ -1,6 +1,6 @@
 ---
 layout: project
-thumbnail: /assets/images/uploads/aaw-2021-main800.png
+thumbnail: /assets/images/uploads/aaw-2021-card.png
 title: Appreciation Program
 category: Campaign Branding
 ---
