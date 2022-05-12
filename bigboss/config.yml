@@ -86,6 +86,13 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "project"
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        choose_url: false
+        media_library:
+          config:
+            multiple: false
       - label: "Title"
         name: "title"
         widget: "string"
