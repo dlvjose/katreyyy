@@ -8,3 +8,9 @@ The ask was to create an evergreen campaign for Marriott Vacations Worldwide’s
 ![](/assets/images/uploads/aaw-2021-main-1280.png)
 
 ![](/assets/images/uploads/aaw-2021-asset01.png)
+
+![](/assets/images/uploads/aaw-2021-asset02.png)
+
+![](/assets/images/uploads/aaw-2021-asset03.png)
+
+![](/assets/images/uploads/aaw-2021-asset04.png)
