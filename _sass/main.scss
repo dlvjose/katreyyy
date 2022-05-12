@@ -165,7 +165,7 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 .box{
@@ -193,11 +193,15 @@ a{
   text-align: center;
 }
 
+.about{
+  margin: 32px 0;
+}
+
 .contact{
-  margin: 64px 0;
+  margin: 32px 0;
 
   .contact-text{
-    padding: 120px;
+    padding: 64px;
     position: relative;
     background-color: $light-blue;
     border-radius: 8px;

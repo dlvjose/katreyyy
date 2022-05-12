@@ -80,7 +80,7 @@ a:hover { color: #F4784D; }
 
 .title { margin-bottom: 32px; text-align: center; }
 
-.showcase { display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 64px; }
+.showcase { display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 40px; }
 
 .box { margin-bottom: 1.5rem; width: 30%; background-color: #FFFFFF; border-radius: 8px; overflow: hidden; }
 
@@ -92,9 +92,11 @@ a:hover { color: #F4784D; }
 
 .cta { text-align: center; }
 
-.contact { margin: 64px 0; }
+.about { margin: 32px 0; }
 
-.contact .contact-text { padding: 120px; position: relative; background-color: #DCF1FA; border-radius: 8px; }
+.contact { margin: 32px 0; }
+
+.contact .contact-text { padding: 64px; position: relative; background-color: #DCF1FA; border-radius: 8px; }
 
 .contact .contact-text img { position: absolute; top: -94px; left: -16px; }
 
